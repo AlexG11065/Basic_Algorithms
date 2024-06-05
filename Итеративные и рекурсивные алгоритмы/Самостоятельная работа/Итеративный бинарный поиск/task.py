@@ -12,3 +12,19 @@ def binary_search(value: int, seq: Sequence) -> int:
     :return: Индекс элемента в массиве
     """
     ...  # TODO реализовать итеративный алгоритм бинарного поиска
+
+    low = 0
+    high = len(seq) - 1
+
+    while low <= high:
+        mid = (low + high) // 2
+        guess = seq[mid]
+
+        if guess == value:
+            return mid
+        if guess > value:
+            high = mid + 1
+        else:
+            low = mid - 1
+        raise ValueError("Искомый элемент не найден")
+

@@ -16,4 +16,29 @@ def binary_search(
     :raise: ValueError если элемента нет в массиве
     :return: Индекс элемента в массиве
     """
-    ...  # TODO реализовать алгоритм бинарного поиска
+    # TODO реализовать алгоритм бинарного поиска
+
+    if right_border is None:
+        right_border = len(seq) - 1
+
+    while left_border <= right_border:
+        mid = (left_border + right_border) // 2
+        guess = seq[mid]
+        if guess == value:
+            return mid
+
+        if guess > value:
+            right_border = mid - 1
+        else:
+            left_border = mid + 1
+
+    raise ValueError(f"Значение {value} не найдено")
+
+
+if __name__ == "__main__":
+    seq = [1, 2, 2, 2, 2, 2]
+    print(seq)
+    # seq = [a for a in range(1, 51)]
+    print(binary_search(2, seq))
+    print(binary_search(10, seq))
+    print(binary_search(-1, seq))
