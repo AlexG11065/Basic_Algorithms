@@ -11,7 +11,7 @@ files:
       offset: 269
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: |-
       if n < 0:
               raise ValueError("Номер числа Фибоначчи должен быть не отрицательным числом")
@@ -65,5 +65,9 @@ files:
 - name: tests/__init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: "ValueError not raised : Что такое -35 число фибоначчи? Должна вызывать\
+    ся ошибка"
+  time: "Fri, 07 Jun 2024 14:20:25 UTC"
 record: -1
