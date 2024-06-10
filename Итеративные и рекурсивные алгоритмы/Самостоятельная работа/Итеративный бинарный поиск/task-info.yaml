@@ -3,8 +3,8 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 381
-    length: 378
+  - offset: 377
+    length: 1283
     placeholder_text: "...  # TODO реализовать итеративный алгоритм бинарного поис\
       ка"
     initial_state:
@@ -12,7 +12,7 @@ files:
       offset: 381
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: |-
       left_border = 0
           right_border = len(seq) - 1
@@ -128,11 +128,8 @@ files:
 - name: tests/__init__.py
   visible: false
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: "1 != 2 : Бинарный поиск должен возвращать индекс первой встречи искомо\
-    го элемента"
-  time: "Wed, 05 Jun 2024 13:43:30 UTC"
-  expected: 1
-  actual: 2
+  message: Congratulations!
+  time: "Sun, 09 Jun 2024 16:42:26 UTC"
 record: -1

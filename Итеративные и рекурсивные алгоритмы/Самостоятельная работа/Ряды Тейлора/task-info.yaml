@@ -12,7 +12,7 @@ files:
       offset: 285
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: |-
       def item(n):
               """ Подсчет очередного элемента бесконечного ряда Тейлора для sin(x)"""
@@ -69,5 +69,8 @@ files:
 - name: img.png
   visible: true
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Error
+  time: "Sun, 09 Jun 2024 17:15:45 UTC"
 record: -1
