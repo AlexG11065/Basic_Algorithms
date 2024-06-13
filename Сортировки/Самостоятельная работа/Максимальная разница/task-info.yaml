@@ -3,14 +3,14 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 71
+  - offset: 142
     length: 3
     placeholder_text: '...'
     initial_state:
       length: 3
       offset: 71
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       '''

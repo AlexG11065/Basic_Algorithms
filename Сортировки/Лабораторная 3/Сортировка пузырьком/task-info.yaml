@@ -3,15 +3,15 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 520
-    length: 53
+  - offset: 517
+    length: 565
     placeholder_text: "...  # TODO реализовать алгоритм сортировки пузырьком"
     initial_state:
       length: 53
       offset: 520
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '...'
   text: |
     from typing import Sequence
@@ -71,5 +71,8 @@ files:
 - name: bubble_sort.gif
   visible: true
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 11 Jun 2024 11:43:01 UTC"
 record: -1

@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 294
-    length: 245
+    length: 919
     placeholder_text: "...  # TODO реализовать итеративный линейный поиск"
     initial_state:
       length: 50
       offset: 294
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: '...'
   text: |
     """
@@ -66,8 +66,8 @@ files:
 - name: tests/__init__.py
   visible: false
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Error
-  time: "Thu, 06 Jun 2024 12:33:37 UTC"
+  message: Congratulations!
+  time: "Thu, 13 Jun 2024 12:49:41 UTC"
 record: -1

@@ -3,15 +3,15 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 91
-    length: 0
+  - offset: 284
+    length: 380
     placeholder_text: '...'
     initial_state:
       length: 3
       offset: 86
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: |-
       dict_ = {target - val: idx for idx, val in enumerate(nums)}
           for idx, val in enumerate(nums):
@@ -54,8 +54,8 @@ files:
 - name: tests/__init__.py
   visible: false
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Syntax Error
-  time: "Sun, 09 Jun 2024 17:59:58 UTC"
+  message: Congratulations!
+  time: "Sat, 15 Jun 2024 21:31:56 UTC"
 record: -1
