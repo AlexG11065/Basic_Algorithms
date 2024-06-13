@@ -3,14 +3,14 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 486
-    length: 54
+  - offset: 482
+    length: 58
     placeholder_text: "...  # TODO реализовать алгоритм сортировки подсчетами"
     initial_state:
       length: 54
       offset: 486
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: '...'
   text: |
